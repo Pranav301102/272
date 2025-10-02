@@ -28,7 +28,7 @@ Weaver is an AI-first platform for modern project management and software archit
 
 ## **4\) Architecture Overview**
 
-## **![][image1]**
+![Weaver Arch Diagram](project-weaver.png)
 
 ## **5\) Technology Stack**
 
