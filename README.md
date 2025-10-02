@@ -106,7 +106,7 @@ Job seekers spend hours searching across multiple job boards, dealing with dupli
 ---
 
 ## **2\) System Architecture (high level)**
-![Weaver Arch Diagram](job-weaver.png)
+![Weaver Arch Diagram](job-weaver.svg)
 
 
 ---
