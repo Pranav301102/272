@@ -84,10 +84,15 @@ Job seekers spend hours searching across multiple job boards, dealing with dupli
 ## **1\) Scope & Goals**
 
 **Goal:** Our project aims to create a Job Application Assistant that:
-Continuously discovers and curates relevant jobs from multiple sources.
-Lets users approve every step (resume edits, form-fill answers).
-Automatically tailors resumes/cover letters using a knowledge base.
-Keeps a full audit trail (versioned artifacts, logs, timestamps)
+
+* Continuously discovers and curates relevant jobs from multiple sources.
+  
+* Lets users approve every step (resume edits, form-fill answers).
+ 
+* Automatically tailors resumes/cover letters using a knowledge base.
+  
+* Keeps a full audit trail (versioned artifacts, logs, timestamps)
+  
 **Key outcomes**
 
 * Fresh, deduped job feed from LinkedIn, Indeed, Y Combinator, and major boards.
