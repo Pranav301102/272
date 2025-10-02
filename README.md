@@ -103,8 +103,6 @@ Job seekers spend hours searching across multiple job boards, dealing with dupli
 
 * Functional, auditable UI first; agentic automation second.
 
-⚠️ **Compliance note:** Automated form submission may violate some sites’ Terms of Service and trigger anti-bot defenses. Design for **user-initiated** submissions with automation “assist,” and use official APIs/RSS where available.
-
 ---
 
 ## **2\) System Architecture (high level)**
