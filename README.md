@@ -1,4 +1,4 @@
-#Project Idea 1- **Project Weaver — AI-Powered Project Management Platform**
+# Project Idea 1- Project Weaver — AI-Powered Project Management Platform
 
 
 ## **1\) Introduction**
@@ -76,7 +76,7 @@ Weaver is an AI-first platform for modern project management and software archit
 ---
 
 
-# Project idea 2 — Autonomous Job Application Assistant**
+# Project idea 2 — Autonomous Job Application Assistant
 
 Job seekers spend hours searching across multiple job boards, dealing with duplicate postings, and repeatedly tailoring resumes and filling application forms. Current platforms don’t help streamline this process or ensure transparency in how AI is used.
 
