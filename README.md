@@ -106,28 +106,8 @@ Job seekers spend hours searching across multiple job boards, dealing with dupli
 ---
 
 ## **2\) System Architecture (high level)**
+![Weaver Arch Diagram](job-weaver.png)
 
-* **Frontend (Web UI):** Next.js/React, Tailwind, shadcn/ui; WebSocket streams for live agent progress.
-
-* **Orchestrator/API:** FastAPI (Python) or Node (Express) to expose endpoints, manage sessions, and broker approvals.
-
-* **RAG & LLM:**
-
-  * **Local** (user preference): Ollama (e.g., Llama 3.1 8B) for generation; bge-small/e5-small for embeddings.
-
-  * **Vector store:** SQLite \+ FAISS (lightweight, M1-friendly).
-
-* **Browser automation:** Playwright (headed mode) with a “controlled browser” and DOM diff overlay; fall back to user-click automation (semi-auto).
-
-* **Scheduler:** APScheduler (interval jobs with user-defined cadence).
-
-* **Storage:**
-
-  * **DB (SQLite/Postgres):** jobs, applications, approvals, artifacts, knowledge docs.
-
-  * **Blob store:** local FS (`/data/artifacts/…`) for PDFs/DOCs; checksum for dedupe.
-
-* **Logging & Audit:** Structured logs (JSON), per-step traces, field-level provenance.
 
 ---
 
